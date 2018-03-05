@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="title">H5 的 canvas 验证码</div>
+<div class="form">
+	<div class="msg" id="msg"></div>
+	<div class="formrow clearfix">
+		<div class="text ls">账号 </div>
+		<div class="input"><input type="text" name="" id="username" class="inp lw"></div>
+	</div>	
+    <div class="formrow clearfix">
+		<div class="text ls">密码 </div>
+		<div class="input"><input type="password" name="" id="password" class="inp lw"></div>
+	</div>
+	<div class="formrow clearfix">
+		<div class="text">验证码 </div>
+		<div class="input"><input type="text" name="" id="inputval" class="inp"></div>
+		<div class="canvas">
+			<canvas id="canvas" width="150" height="40"></canvas>
+			<img id="refresh" src="refresh.png" alt="刷新">
+		</div>
+		
+	</div>
+	<div><button class="submit" id="submit">登 录</button></div>
+</div>
+<script src="index.js"></script>	
+</body>
+</html>

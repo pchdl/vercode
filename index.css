@@ -1,0 +1,132 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+}
+body{
+	background:url('./body_bg.png') repeat;
+	color:#ccc;
+	font-family: microsoft YaHei;
+}
+.title{
+	width: 500px;
+	height: 120px;
+	margin: 0 auto;
+	line-height: 120px;
+	font-size: 32px;
+	color: #ccc;
+	text-align: center;
+	text-shadow: 1px 2px 3px #222;
+	background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(rgba(255, 255, 235, 255)), to(rgba(155, 200, 123, 120)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.form{
+	width: 500px;
+	height: 350px;
+	margin: 0 auto;
+	border:solid 1px #444;
+	border-radius: 5px;
+	padding:65px 20px;
+	box-sizing: border-box;
+	box-shadow: 0 1px 10px #222;
+	position: relative;
+}
+.msg{
+	position: absolute;
+	width: 80%;
+	height: 30px;
+	left: 50%;
+	top: 20px;
+	margin-left: -40%;
+	color: #F00;
+	font-size: 14px;
+	text-align: center;
+}
+.clearfix:after{
+	display: block;
+	content: '';
+	clear:both;
+}
+.formrow{
+	width: 500px;
+	height: 50px;
+	line-height: 50px;
+}
+.text{
+	float: left;
+	width: 80px;
+	height: 100%;
+	text-indent:15px;
+	font-size: 15px;
+}
+.ls{
+	letter-spacing: 15px;
+}
+.input{
+	float: left;
+	width: 120px;
+	height: 100%;
+}
+.canvas{
+	float: left;
+	width: 200px;
+	height: 100%;
+	position: relative;
+	padding-left: 10px;
+	margin-left: 20px;
+}
+.inp{
+	width: 90%;
+	padding: 9px;
+	border-top: solid 1px #393939;
+	border-bottom: solid 1px #aaa;
+	border-left: 0;
+	border-right: 0;
+	border-radius: 3px;
+	outline: none;
+	background: url('./input_bg.png') repeat;
+	box-shadow: 0 2px 5px #333 inset;
+	font-size: 15px;
+}
+.lw{
+	width: 250px;
+}
+canvas{
+	position: absolute;
+	width: 150px;
+	height: 40px;
+	left: 10px;
+	top: 4px;
+	display: inline-block;
+	background-color: #eee;
+	border-radius: 3px;
+}
+.canvas img{
+	position: absolute;
+	right: 10px;
+	width: 25px;
+	height: 25px;
+	top: 12px;
+	cursor: pointer;
+}
+.submit{
+	width: 100px;
+	height: 40px;
+	background-color: #0abea7;
+	border-radius: 3px;
+	border:0;
+	/*border:solid 1px #07b697;*/
+	outline: none;
+	margin:25px 80px;
+	font-size: 16px;
+	font-weight: bold;
+	box-shadow: 1px 1px 10px #222;
+	color: #084941;
+}
+.submit:active{
+	box-shadow: 0 4px 7px #089986 inset;
+}
+
+
